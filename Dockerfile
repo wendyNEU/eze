@@ -10,4 +10,4 @@ ADD index2.html /var/local/html2/index2.html
 
 RUN apt-get update
 
-EXPOSE 8080
+EXPOSE 80 8080 8081 8082
